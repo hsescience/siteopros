@@ -18,6 +18,7 @@
    
 </head>
 <body>
+    <div id = "content_auto">
     <form id="form1" runat="server">
     <div style="height: 412px">
     
@@ -92,5 +93,6 @@ mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Фил�
     
     </div>
     </form>
+    </div>
 </body>
 </html>

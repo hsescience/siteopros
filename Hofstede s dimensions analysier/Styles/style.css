@@ -1,15 +1,16 @@
 html {
-	height: 100%;
-	width: 100%;
+	background-image: url(bg.png);
+    	-moz-background-size:100% 100%;
+    	-webkit-background-size:100% 100%;
+    	-o-background-size:100% 100%;
+    	-khtml-background-size:100% 100%;
+    	background-size:100% 100%;	
+	background-attachment:fixed;
+	background-repeat:no-repeat;
 }
 
 body {
-	background-image: url(bg.png);
-    -moz-background-size:100% 100%;
-    -webkit-background-size:100% 100%;
-    -o-background-size:100% 100%;
-    -khtml-background-size:100% 100%;
-    background-size:100% 100%;	
+	
 }
 
 
