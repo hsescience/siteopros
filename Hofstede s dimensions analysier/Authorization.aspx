@@ -19,8 +19,8 @@
 </head>
 <body>
     <div id = "content_auto">
-    <form id="form1" runat="server">
-    <div style="height: 412px">
+        <form id="auto" name = "auto" runat="server">
+            <input type = "text" name = "fio" id = "fio" placeholder = "Представтесь, пожалуйста" title="Введите свое ФИО" onkeypress="if(event.keyCode == 13) return false;" AUTOCOMPLETE="off"/>
     
         <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Georgia" 
             Font-Size="X-Large" style="text-align: left" Text="Представьтесь, пожалуйста!"></asp:Label>
@@ -92,7 +92,7 @@ mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Фил�
             SelectCommand="SELECT * FROM [Respondent]"></asp:SqlDataSource>
     
     </div>
-    </form>
+        </form>
     </div>
 </body>
 </html>
