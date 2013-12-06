@@ -4,8 +4,18 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Добро пожаловать!</title>
+    <meta charset = "utf-8" />
+    <title>Добро пожаловать, пройдите опрос</title>
+    <link href="Styles/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="font/font.css">
+    <link type="text/css" rel="stylesheet" href="Styles/jquery.jscrollpane.css"/>
 
+    <script type="text/javascript" src = "Scripts/control.js"></script>
+	<script type="text/javascript" src = "Scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="Scripts/jquery.jscrollpane.js"></script>
+
+   
 </head>
 <body>
     <form id="form1" runat="server">

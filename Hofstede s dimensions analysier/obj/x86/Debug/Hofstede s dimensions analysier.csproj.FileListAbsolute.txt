@@ -14,3 +14,15 @@ C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\
 C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\HtmlAgilityPack.pdb
 C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\HtmlAgilityPack.xml
 C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\Hofstede s dimensions analysier.dll
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\Hofstede s dimensions analysier.pdb
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\AjaxControlToolkit.dll
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\AjaxMin.dll
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\HtmlAgilityPack.dll
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\HtmlAgilityPack.pdb
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\HtmlAgilityPack.xml
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\obj\x86\Debug\Hofstede s dimensions analysier.dll
+C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\obj\x86\Debug\Hofstede s dimensions analysier.pdb

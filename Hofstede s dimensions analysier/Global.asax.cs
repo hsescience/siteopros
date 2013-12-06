@@ -12,6 +12,8 @@ namespace Hofstede_s_dimensions_analysier
 
         void Application_Start(object sender, EventArgs e)
         {
+
+
             // Code that runs on application startup
 
         }

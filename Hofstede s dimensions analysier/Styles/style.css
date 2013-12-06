@@ -1,0 +1,190 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-image: url(bg.png);
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    -o-background-size:100% 100%;
+    -khtml-background-size:100% 100%;
+    background-size:100% 100%;	
+}
+
+
+#content_auto{
+	-webkit-box-shadow: 0 5px 13px rgba(0,3,1,.75);
+	-moz-box-shadow: 0 5px 13px rgba(0,3,1,.75);
+	box-shadow: 0 5px 13px rgba(0,3,1,.75);
+	border: solid 2px #a3a2a1;
+	border-radius: 4px;
+	width: 973px;
+	height: 692px;
+	position: relative;
+	background: #fdf8ef;
+	margin: 3% auto;
+}
+
+
+
+
+#auto {
+	position: relative;
+	width: 100%;
+
+}
+
+#fio {
+	color:  #515050;
+	font-family: " LittleShift";
+	font-size: 35px;
+	width: 100%;
+	text-align: center;
+	margin-top: 34px;
+	position: relative;
+	outline: none;
+	border: none;
+	background: transparent;
+}
+
+input::-webkit-input-placeholder {
+	font-family: "LittleShift";	
+	font-size: 35px;
+	color: #515050;
+}
+
+input:-moz-placeholder {
+	font-family: " LittleShift";	
+	font-size: 35px;
+	color: #515050;
+}
+
+input::-ms-clear {
+      display: none;
+  }
+
+ .colon {
+
+ 	width: 100%;
+ 	position: relative;
+ 	font-family: "LittleShift";
+	font-size: 25px;
+	color: #515050;
+	height: 38px;
+ }
+
+ .leftcolon {
+ 	padding-left: 70px;
+ 	width: 42%;
+ 	float: left;
+ 	text-align: left;
+ 	vertical-align: middle;
+}
+
+
+ .rightcolon {
+ 	width: 49%;
+ 	float: right;
+ }
+
+
+
+.buttoninput, .buttoninputfac, .buttoninputfac{
+	position: relative;
+ 	border: solid 3px #a3a2a1;
+ 	border-radius: 6px;
+	width: 418px;
+	height: 44px;
+	top: -8px;
+	cursor: pointer;
+}
+
+
+
+.liststatus, .listfilial, #listfaculty, #listcountrybr, #listcountryliv {
+	position: relative;
+	border: solid 3px #a3a2a1;
+	margin-left: -3px;
+	margin-top: -3px;
+	width: 100%;
+	border-radius: 6px;
+	cursor: pointer;
+	height: 0px;
+	z-index: 23;
+	background: #fdf8ef;
+	display: none;
+}
+
+.buttoninputtext{
+	top: 10px;
+	left: 20px;
+	position: absolute;
+	font-family: "LittleShift";
+	font-size: 20px;
+	height: 25px;
+	color: #515050;
+	width: 100%;
+	overflow: hidden;
+}
+
+.littlebutton {
+	position: absolute;
+	right: 12px;
+	top: 11px;
+}
+
+.listitem {
+	padding-left: 20px;
+	width: 373px;
+	min-height: 28px;
+	font-family: LittleShift;
+	font-size: 20px;
+	color: #515050;
+	vertical-align: middle;
+	padding-top: 10px;
+	line-height: 100%;
+}
+
+#podvergdenie {
+	position: relative;
+	margin-top: 50px;
+	margin-left: 370px;
+}
+
+#submitpodtv {
+	position: relative;
+	float: left;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#textpodtvergd {
+	margin-top: 4px;
+	margin-left: 10px;
+	position: relative;
+	float: left;
+	font-family: LittleShift;
+	font-size: 20px;
+	color: #515050;
+}
+
+#submitbutton{
+	position: relative;
+	margin-top: 46px;
+	margin-left: 150px;
+	width: 190px;
+	height: 35px;
+	border: solid 3px #a3a2a1;
+ 	border-radius: 15px;
+ 	cursor: pointer;
+}
+
+#submitbuttontext {
+	margin-top: 3px;
+	width: 100%;
+	text-align: center;
+	font-family: LittleShift;
+	font-size: 23px;
+	color: #515050;	
+}
