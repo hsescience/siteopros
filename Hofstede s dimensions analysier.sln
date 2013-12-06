@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hofstede s dimensions analysier", "Hofstede s dimensions analysier\Hofstede s dimensions analysier.csproj", "{4E05CE0F-3657-4DB2-9583-AE7855DC6152}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Debug|Any CPU.Build.0 = Debug|x86
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Debug|x64.ActiveCfg = Debug|x64
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Debug|x64.Build.0 = Debug|x64
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Debug|x86.ActiveCfg = Debug|x86
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Debug|x86.Build.0 = Debug|x86
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Release|x64.ActiveCfg = Release|x64
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Release|x64.Build.0 = Release|x64
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Release|x86.ActiveCfg = Release|x64
+		{4E05CE0F-3657-4DB2-9583-AE7855DC6152}.Release|x86.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

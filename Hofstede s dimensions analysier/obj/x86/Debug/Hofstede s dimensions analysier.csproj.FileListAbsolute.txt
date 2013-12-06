@@ -1,0 +1,16 @@
+C:\ВШЭ\4 курс\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\Hofstede s dimensions analysier.dll
+C:\ВШЭ\4 курс\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\Hofstede s dimensions analysier.pdb
+C:\ВШЭ\4 курс\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\obj\x86\Debug\Hofstede s dimensions analysier.dll
+C:\ВШЭ\4 курс\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\obj\x86\Debug\Hofstede s dimensions analysier.pdb
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\Hofstede s dimensions analysier.dll
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\Hofstede s dimensions analysier.pdb
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\obj\x86\Debug\Hofstede s dimensions analysier.dll
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\obj\x86\Debug\Hofstede s dimensions analysier.pdb
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\obj\x86\Debug\Hofstede s dimensions analysier.csprojResolveAssemblyReference.cache
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\AjaxControlToolkit.dll
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\AjaxMin.dll
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\HtmlAgilityPack.dll
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\Microsoft.WindowsAzure.Storage.dll
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\HtmlAgilityPack.pdb
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\HtmlAgilityPack.xml
+C:\ВШЭ\Магистратура\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\Microsoft.WindowsAzure.Storage.xml

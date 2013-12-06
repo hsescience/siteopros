@@ -1,0 +1,4 @@
+C:\ВШЭ\4 курс\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\Hofstede s dimensions analysier.dll
+C:\ВШЭ\4 курс\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\bin\Hofstede s dimensions analysier.pdb
+C:\ВШЭ\4 курс\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\obj\Debug\Hofstede s dimensions analysier.dll
+C:\ВШЭ\4 курс\Диплом\Hofstede s dimensions analysier\Hofstede s dimensions analysier\obj\Debug\Hofstede s dimensions analysier.pdb
