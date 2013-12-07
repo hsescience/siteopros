@@ -20,13 +20,9 @@
 <body>
     <div id = "content_auto">
         <form id="auto" name = "auto" runat="server">
-            <input type = "text" name = "fio" id = "fio" placeholder = "Представтесь, пожалуйста" title="Введите свое ФИО" onkeypress="if(event.keyCode == 13) return false;" AUTOCOMPLETE="off"/>
+            <div  id = "fio">Представтесь, пожалуйста</div>
     
-        <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Georgia" 
-            Font-Size="X-Large" style="text-align: left" Text="Представьтесь, пожалуйста!"></asp:Label>
-        <br />
-        <br />
-        <span style="font-size:11.0pt;line-height:107%;
+               <span style="font-size:11.0pt;line-height:107%;
 font-family:&quot;Georgia&quot;,&quot;serif&quot;;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
 minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
 mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Статус 

@@ -49,21 +49,7 @@ body {
 	background: transparent;
 }
 
-input::-webkit-input-placeholder {
-	font-family: "LittleShift";	
-	font-size: 35px;
-	color: #515050;
-}
 
-input:-moz-placeholder {
-	font-family: " LittleShift";	
-	font-size: 35px;
-	color: #515050;
-}
-
-input::-ms-clear {
-      display: none;
-  }
 
  .colon {
 
