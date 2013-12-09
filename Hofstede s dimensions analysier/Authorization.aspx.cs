@@ -20,11 +20,11 @@ namespace Hofstede_s_dimensions_analysier
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            int statusID = DropDownList1.SelectedIndex; //статус относительно Вышки
-            string branch = DropDownList2.SelectedItem.Text; //филиал
-            string faculty = DropDownList4.SelectedItem.Text; //факультет
-            string homeland = DropDownList5.SelectedItem.Text; //родная страна
-            string residence = DropDownList6.SelectedItem.Text; //страна проживания
+            int statusID = int.Parse(Request.Form["status"]); //статус относительно Вышки
+            string branch = Request.Form["filial"]; //филиал
+            string faculty = Request.Form["faculty"]; ; //факультет
+            string homeland = Request.Form["listcountrybr"]; ; //родная страна
+            string residence = Request.Form["listcountryliv"]; //страна проживания
 
 
             if (CheckBox1.Checked==true)
