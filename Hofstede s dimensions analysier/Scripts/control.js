@@ -1,4 +1,4 @@
-statusperson = false;
+﻿statusperson = false;
 filialflag = false;
 facultyon = false;
 facultyfilial = 0;
@@ -360,7 +360,7 @@ function filialonclick() {
 
 function filialitemclick(numberelement) {
 	document.getElementById("filialtext").innerHTML = filialznach[numberelement];
-	document.getElementById("filial").value = numberelement;
+	document.getElementById("filial").value = filialznach[numberelement];
 	//alert(document.auto.status.value);
 	
 	$('#lbfilial').hide();
@@ -443,7 +443,7 @@ function facultyonclick() {
 
 function facultyitemclick(numberelement) {
 	document.getElementById("facultytext").innerHTML = facultyznach[facultyfilial][numberelement];
-	document.getElementById("faculty").value = numberelement;
+	document.getElementById("faculty").value = facultyznach[facultyfilial][numberelement];
 	//alert(document.auto.status.value);
 	switch(facultyfilial){
 			case 0:
@@ -521,7 +521,7 @@ function countrybronclick() {
 
 function countrybritemclick(numberelement) {
 	document.getElementById("countrybrtext").innerHTML = countrieslist[numberelement];
-	document.getElementById("countrybr").value = numberelement;
+	document.getElementById("countrybr").value = countrieslist[numberelement];
 	$('#lbcountrybr').hide();
 
 	$('#listcountrybr').animate(
@@ -551,7 +551,7 @@ function countrylivonclick() {
 
 function countrylivitemclick(numberelement) {
 	document.getElementById("countrylivtext").innerHTML = countrieslist[numberelement];
-	document.getElementById("countryliv").value = numberelement;
+	document.getElementById("countryliv").value = countrieslist[numberelement];
 	$('#lbcountryliv').hide();
 
 	$('#listcountryliv').animate(
@@ -586,7 +586,6 @@ function addcountriees() {
 
 
 function submitclick() {
-	
 		if (document.getElementById("status").value == "") {
 				alert("Вы не ввели ваш статус относительно НИУ ВШЭ");
 				statusonclick();
@@ -610,7 +609,7 @@ function submitclick() {
 							if (podtvergden == false) {
 								alert("Вы не подтвердили разрешение на хранение и обработку ваших данных");			
 							}else{
-								document.auto.submit();		
+								document.getElementById("auto").submit();		
 							}				
 						}				
 					}					

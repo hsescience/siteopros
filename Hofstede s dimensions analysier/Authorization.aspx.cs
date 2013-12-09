@@ -23,12 +23,11 @@ namespace Hofstede_s_dimensions_analysier
             int statusID = int.Parse(Request.Form["status"]); //статус относительно Вышки
             string branch = Request.Form["filial"]; //филиал
             string faculty = Request.Form["faculty"]; ; //факультет
-            string homeland = Request.Form["listcountrybr"]; ; //родная страна
-            string residence = Request.Form["listcountryliv"]; //страна проживания
+            string homeland = Request.Form["countrybr"]; ; //родная страна
+            string residence = Request.Form["countryliv"]; //страна проживания
 
 
-            if (CheckBox1.Checked==true)
-            {
+          
                 SqlDataSource1.SelectCommand = "SELECT TOP 1 ID FROM Respondent ORDER BY ID DESC";
                 DataView dv = (DataView)SqlDataSource1.Select(DataSourceSelectArguments.Empty);
                 try
@@ -45,7 +44,7 @@ namespace Hofstede_s_dimensions_analysier
 
 
                 Response.Redirect("AboutProject.aspx?user_id=" + topID, false);
-            }
+            
 
         }
     }

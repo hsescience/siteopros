@@ -19,7 +19,7 @@
 </head>
 <body>
     <div id = "content_auto">
-        <form id="auto" name = "auto" runat=server>
+        <form id="auto" name = "auto" runat=server action = "">
             <div  id = "fio">Представтесь, пожалуйста</div>
             <div style = "clear:both; margin-top:50px;"></div>
 
@@ -118,10 +118,8 @@
 				<div id = "submitbutton" onclick = "submitclick();">
 					<div id = "submitbuttontext">Войти</div>
 				</div>
-        <asp:CheckBox ID="CheckBox1" runat="server" 
-            Text="Я согласен на обработку моих данных." />
-        <br />
-        <asp:Button ID="Button1" runat="server" onclick="Button1_Click" 
+      
+        <asp:Button ID="Button1" runat="server"  onclick="Button1_Click" 
             Text="Продолжить" />
     
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
