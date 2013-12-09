@@ -330,9 +330,9 @@ function statusonclick() {
 
 function statitemclick(numberelement) {
 	document.getElementById("statustext").innerHTML = statusznach[numberelement];
-	document.auto.status.value = numberelement;
+	document.getElementById("status").value = numberelement;
 	$('#lbstatus').hide();
-	//alert(document.auto.status.value);
+	//alert(document.getElementById("status").value);
 
 	$('.liststatus').animate(
 				{height:"-=233px"},500
@@ -360,11 +360,11 @@ function filialonclick() {
 
 function filialitemclick(numberelement) {
 	document.getElementById("filialtext").innerHTML = filialznach[numberelement];
-	document.auto.filial.value = numberelement;
+	document.getElementById("filial").value = numberelement;
 	//alert(document.auto.status.value);
 	
 	$('#lbfilial').hide();
-	document.auto.faculty.value = "";
+	document.getElementById("faculty").value = "";
 	document.getElementById("facultytext").innerHTML = "Выбирите свой факультет";
 
 
@@ -443,7 +443,7 @@ function facultyonclick() {
 
 function facultyitemclick(numberelement) {
 	document.getElementById("facultytext").innerHTML = facultyznach[facultyfilial][numberelement];
-	document.auto.faculty.value = numberelement;
+	document.getElementById("faculty").value = numberelement;
 	//alert(document.auto.status.value);
 	switch(facultyfilial){
 			case 0:
@@ -521,7 +521,7 @@ function countrybronclick() {
 
 function countrybritemclick(numberelement) {
 	document.getElementById("countrybrtext").innerHTML = countrieslist[numberelement];
-	document.auto.countrybr.value = numberelement;
+	document.getElementById("countrybr").value = numberelement;
 	$('#lbcountrybr').hide();
 
 	$('#listcountrybr').animate(
@@ -551,7 +551,7 @@ function countrylivonclick() {
 
 function countrylivitemclick(numberelement) {
 	document.getElementById("countrylivtext").innerHTML = countrieslist[numberelement];
-	document.auto.countryliv.value = numberelement;
+	document.getElementById("countryliv").value = numberelement;
 	$('#lbcountryliv').hide();
 
 	$('#listcountryliv').animate(
@@ -565,10 +565,10 @@ function countrylivitemclick(numberelement) {
 
 function buttonpodv() {
 	if (podtvergden ==false) {
-		document.getElementById("submitpodtv").src = "css/vkl.png";
+		document.getElementById("submitpodtv").src = "Styles/vkl.png";
 		podtvergden = true;
 	}else{
-		document.getElementById("submitpodtv").src = "css/vykl.png";
+		document.getElementById("submitpodtv").src = "Styles/vykl.png";
 		podtvergden = false; 
 	}
 
@@ -586,10 +586,7 @@ function addcountriees() {
 
 
 function submitclick() {
-	if (document.getElementById("fio").value == ""){
-		alert("Вы не ввели свое ФИО");
-		document.auto.fio.focus(); 
-	}else{
+	
 		if (document.getElementById("status").value == "") {
 				alert("Вы не ввели ваш статус относительно НИУ ВШЭ");
 				statusonclick();
@@ -621,6 +618,5 @@ function submitclick() {
 			}			
 		}
 
-	}
-	//
+	
 }
