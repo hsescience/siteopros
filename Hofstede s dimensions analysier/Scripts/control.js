@@ -401,9 +401,9 @@ function facultyonclick() {
 				 		jQuery('#listfaculty').jScrollPane({showArrows: true,
 						verticalDragMinHeight: 34,
        	    			verticalDragMaxHeight: 34}); 
-       	    			facultyflag = true;
 					}
 				);
+				facultyflag = true;
 				break;
 			case 1:
 				$('#listfaculty').show();

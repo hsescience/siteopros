@@ -101,6 +101,7 @@ body {
 	z-index: 23;
 	background: #fdf8ef;
 	display: none;
+	outline: none;
 }
 
 .buttoninputtext{
