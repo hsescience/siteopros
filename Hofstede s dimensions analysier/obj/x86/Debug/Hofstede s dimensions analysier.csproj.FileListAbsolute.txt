@@ -24,3 +24,12 @@ C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\
 C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\obj\x86\Debug\Hofstede s dimensions analysier.dll
 C:\Users\student\Documents\GitHub\siteopros\Hofstede s dimensions analysier\obj\x86\Debug\Hofstede s dimensions analysier.pdb
+C:\Users\пк\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\Hofstede s dimensions analysier.dll
+C:\Users\пк\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\Hofstede s dimensions analysier.pdb
+C:\Users\пк\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\AjaxControlToolkit.dll
+C:\Users\пк\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\AjaxMin.dll
+C:\Users\пк\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\HtmlAgilityPack.dll
+C:\Users\пк\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\HtmlAgilityPack.pdb
+C:\Users\пк\Documents\GitHub\siteopros\Hofstede s dimensions analysier\bin\HtmlAgilityPack.xml
+C:\Users\пк\Documents\GitHub\siteopros\Hofstede s dimensions analysier\obj\x86\Debug\Hofstede s dimensions analysier.dll
+C:\Users\пк\Documents\GitHub\siteopros\Hofstede s dimensions analysier\obj\x86\Debug\Hofstede s dimensions analysier.pdb

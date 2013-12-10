@@ -399,8 +399,8 @@ function facultyonclick() {
 				$('#listfaculty').animate(
 					{height:"+="+224+"px"},500, function(){
 				 		jQuery('#listfaculty').jScrollPane({showArrows: true,
-						verticalDragMinHeight: 37,
-       	    			verticalDragMaxHeight: 37}); 
+						verticalDragMinHeight: 34,
+       	    			verticalDragMaxHeight: 34}); 
        	    			facultyflag = true;
 					}
 				);
@@ -511,8 +511,8 @@ function countrybronclick() {
 			$('#listcountrybr').animate(
 				{height:"+=230px"},500, function(){
 					 jQuery('#listcountrybr').jScrollPane({showArrows: true,
-						verticalDragMinHeight: 37,
-       	    			verticalDragMaxHeight: 37}); facultyflag = true;
+						verticalDragMinHeight: 34,
+       	    			verticalDragMaxHeight: 34}); facultyflag = true;
 				});
 			countrybrflag = true;
 			previousitem = "listcountrybr";
@@ -541,8 +541,8 @@ function countrylivonclick() {
 			$('#listcountryliv').animate(
 				{height:"+=230px"},500, function(){
 					 jQuery('#listcountryliv').jScrollPane({showArrows: true,
-						verticalDragMinHeight: 37,
-       	    			verticalDragMaxHeight: 37}); facultyflag = true;
+						verticalDragMinHeight: 34,
+       	    			verticalDragMaxHeight: 34}); facultyflag = true;
 				});
 			countrylivflag = true;
 			previousitem = "listcountryliv";
@@ -609,7 +609,7 @@ function submitclick() {
 							if (podtvergden == false) {
 								alert("Вы не подтвердили разрешение на хранение и обработку ваших данных");			
 							}else{
-								document.getElementById("auto").submit();		
+								document.getElementById("Button1").click();		
 							}				
 						}				
 					}					

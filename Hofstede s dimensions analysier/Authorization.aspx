@@ -119,7 +119,7 @@
 					<div id = "submitbuttontext">Войти</div>
 				</div>
       
-        <asp:Button ID="Button1" runat="server"  onclick="Button1_Click" 
+        <asp:Button ID="Button1" runat="server" style = "visibility:hidden;" onclick="Button1_Click" 
             Text="Продолжить" />
     
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" 

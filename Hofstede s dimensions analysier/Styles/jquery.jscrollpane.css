@@ -20,10 +20,10 @@
 {
 	position: absolute;
 	top: 0;
-	right: 0;
-	width: 16px;
+	right: 10px;
+	width: 5px;
 	height: 100%;
-	background: red;
+	background: transparent;
 }
 
 .jspHorizontalBar
@@ -55,7 +55,7 @@
 
 .jspTrack
 {
-	background: #dde;
+	background: transparent;
 	position: relative;
 }
 
