@@ -9,10 +9,13 @@ html {
 	background-repeat:no-repeat;
 }
 
+
+
 body {
 	
 }
 
+/***************************AUTHORIZATION.ASPX************************************/
 
 #content_auto{
 	-webkit-box-shadow: 0 5px 13px rgba(0,3,1,.75);
@@ -175,4 +178,63 @@ body {
 	font-family: LittleShift;
 	font-size: 23px;
 	color: #515050;	
+}
+
+/***************************ABOUTPROJECT.ASPX************************************/
+
+.nobgimage {
+	background: none;
+}
+
+.header {
+	position: relative;
+	width: 100%;
+	height: 100px;
+}
+
+.header_content {
+	position: relative;
+	margin: 0 auto;
+	width: 560px;
+	height: 100%;
+}
+
+.header_content_text{
+	top: 35px;
+	width: 100%;
+	position: absolute;
+	font-weight: 600;
+	display: inline-block;
+	text-align: center;
+	font-family: "Segoe UI";
+	font-size: 30px;
+	color: #898b91;
+}
+
+.wrap1 {
+	position: relative;
+	width: 100%;
+	height: 230px;
+	background: #667580;
+}
+
+.wrap1_content {
+	width: 560px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+
+.wrap2 {
+	position: relative;
+	width: 100%;
+	height: 230px;
+	background: #667580;
+}
+
+.wrap2_content {
+	width: 560px;
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
 }

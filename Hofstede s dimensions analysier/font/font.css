@@ -2,3 +2,8 @@
     font-family: LittleShift; /* Имя шрифта */
     src: url(LittleShiftSerif.ttf); /* Путь к файлу со шрифтом */
  }
+
+@font-face {
+	font-family: SegoeUI;
+	src: url(segoeui.ttf);
+}
