@@ -16,14 +16,39 @@
             <span class = "header_content_text">Примите участие</span>
         </div>
    </div>
+
    <div style = "clear:both;"></div>
+
    <div class = "wrap1">
         <div class = "wrap1_content">
         </div>
    </div>
+
     <div style = "clear:both;"></div>
+
    <div class = "wrap2">
         <div class = "wrap2_content">
+        </div>
+   </div>
+
+   <div style = "clear:both;"></div>
+
+   <div class = "wrap2">
+        <div class = "wrap2_content">
+        </div>
+   </div>
+
+   <div style = "clear:both;"></div>
+
+   <div class = "wrap3">
+        <div class = "wrap3_content">
+        </div>
+   </div>
+
+   <div style = "clear:both;"></div>
+
+   <div class = "footer">
+        <div class = "footer_content">
         </div>
    </div>
    
