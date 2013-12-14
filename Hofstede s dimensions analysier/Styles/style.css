@@ -200,15 +200,20 @@ body {
 }
 
 .header_content_text{
-	top: 35px;
+	margin-top: -47px;
 	width: 100%;
-	position: absolute;
-	font-weight: 600;
+	position: relative;
 	display: inline-block;
 	text-align: center;
 	font-family: "Segoe UI";
 	font-size: 30px;
 	color: #898b91;
+}
+
+.header_content_logo {
+	position: relative;
+	float: left;
+	margin-top: 30px;
 }
 
 .wrap1 {
@@ -225,6 +230,49 @@ body {
 	height: 100%;
 }
 
+.wrap1_content_img-laptop {
+	position: relative;
+	float: right;
+	margin-top: 15px;
+	margin-right: -2px;
+}
+
+.wrap1_content_text {
+	z-index: 40;
+	width: 275px;
+	position: relative;
+	float: left;
+	margin-left: -5px;
+	margin-top: 50px;
+	font-family: "Segoe UI";
+	font-size: 20px;
+	color: #fff;
+}
+
+.wrap1_content_button {
+	position: relative;
+	float: left;
+	background-image: url(buttonaboutproject.png);
+	width: 168px;
+	height: 57px;
+	margin-top: 1px;
+	cursor: pointer;
+}
+
+.wrap1_content_button-text {
+	text-align: center;
+	margin-top: 26px;
+	margin-left: -5px;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	display: inline-block;
+	font-family: "Segoe UI";
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
 .wrap2 {
 	position: relative;
 	width: 100%;
@@ -238,6 +286,49 @@ body {
 	position: relative;
 	height: 100%;
 }
+
+.wrap2-content_left-colomn{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 185px;
+}
+
+.wrap2-content_left-colomn_text{
+	position: relative;
+	float: left;
+	margin-top: 90px;
+	width: 100%;
+	font-family: "Segoe UI";
+	font-size: 15px;
+	color: #9d9064;
+}
+
+.wrap2-content_left-colomn_img{
+	position: relative;
+	display: inline-block;
+	width: 75px;
+	height: 87px;
+	margin-top: 24px;
+	margin-left: 17px;
+}
+
+.wrap2-content_right-colomn{
+	position: relative;
+	float: right;
+	width: 360px;
+	height: 100%;
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #9d9064;
+	text-shadow: 0px 0px 1px  #fee79b;
+}
+
+.wrap2-content_right-colomn p{
+	margin-top: 3.5px;
+	margin-bottom: 4px;
+}
+
 
 .wrap3 {
 	position: relative;
@@ -253,6 +344,77 @@ body {
 	height: 100%;
 }
 
+
+.wrap3-content_left-colomn{
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 325px;
+}
+
+.wrap3-content_left-colomn_item {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: 12px;
+}
+
+.wrap3-content_left-colomn_item-img{
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-top: 5px;
+	margin-left: -3px;
+}
+
+.wrap3-content_left-colomn_item-text{
+	display: inline-block;
+	position: relative;
+	float: right;
+	width: 290px;
+	font-family: "Segoe UI";
+	font-size: 15px;
+	color: #fff;
+	line-height: 1;
+	text-shadow: 0px 0px 1px  #fee79b;
+}
+
+.wrap3-content_right-colomn_img{
+	position: relative;
+	float: right;
+	background-image: url(window.png);
+	width: 218px;
+	height: 161px;
+	margin-top: 30px;
+}
+
+.wrap3-content_right-colomn_img_opacity {
+	z-index: 10;
+	position: absolute;
+	width: 219px;
+	height: 100%;
+	background: -moz-linear-gradient(left,transparent, #00a885);
+	background: -ms-linear-gradient(left,transparent, #00a885);
+	background: -o-linear-gradient(left,transparent, #00a885);
+	background: -webkit-linear-gradient(left,transparent,#00a885);
+	background: linear-gradient(left,transparent, #00a885);
+}
+
+.wrap3-content_right-colomn_img-text {
+	z-index: 20;
+	margin-top: 62px;
+	margin-left: 20px;
+	position: relative;
+	font-family: "Segoe UI";
+	font-size: 16px;
+	color: #257665;
+}
+
+.wrap3-content_right-colomn_img-text p{
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
 .footer {
 	position: relative;
 	width: 100%;
@@ -265,5 +427,33 @@ body {
 	margin: 0 auto;
 	width: 560px;
 	height: 100%;
+}
+
+.footer-content_where-text {
+	position: relative;
+	float: left;
+	font-family: "Segoe UI";
+	font-size: 12px;
+	color: #fff;
+	margin-top: 37px;
+	margin-left: -5px;
+}
+
+
+.footer-content_about-text{
+	position: relative;
+	float: left;
+	font-family: "Segoe UI";
+	font-size: 12px;
+	color: #fff;
+	margin-top: 37px;
+	margin-left:112px;
+} 
+
+.footer-content_img-logo {
+	position: relative;
+	float: right;
+	margin-right: -1px;
+	margin-top: 30px;
 }
 

@@ -619,3 +619,7 @@ function submitclick() {
 
 	
 }
+
+function buttonaboutproject() {
+	document.getElementById("Button1").click();	
+}
